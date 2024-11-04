@@ -8,9 +8,8 @@ import random
 person1 = Person("Alice", 30, 2)
 person2 = Person("Bob", 25, 1)
 pilot1 = Pilot("Charlie", 40, 1, "XY123", 2000)
-pilot2 = Pilot("Dana", 34, 0, "YZ456", 3500)
 
-arr = [person1, person2, pilot1, pilot2]
+arr = [person1, person2, pilot1]
 
 for i in arr:
     print(i)
